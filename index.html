@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/mainStyle.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>ASACA</title>
+  </head>
+  <body>
+    <header>
+      <a href="" class="logo"> <img src="" alt="" />ASACA </a>
+
+      <nav>
+        <ul class="nav_links">
+          <li><a class="active" href="#">home</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">projects</a></li>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+      </nav>
+
+      <p class="quickcall"><i class="fas fa-phone-alt"></i> +91-783-453-9883</p>
+    </header>
+
+    <div class="intro">
+      <h1 class="heading">Welcome</h1>
+      <p class="intro_">
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s
+      </p>
+    </div>
+
+    <div class="dummy">
+      <div class="cta">
+        <p class="cta_heading">Latest hot selling</p>
+        <br />
+        <p class="cta_summary">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries,
+        </p>
+        <a class="cta_btn" href="#">Know more</a>
+      </div>
+
+      <div class="share_box">
+        <i class="fas fa-share-alt"></i>
+        <div class="divider"></div>
+        <ul>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+            <!-- <img
+              class="share_icon"
+              src="./assets/icons/facebook-f-brands.svg"
+              alt=""
+            /> -->
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+            <!-- <img
+              class="share_icon"
+              src="./assets/icons/instagram-brands.svg"
+              alt=""
+            /> -->
+          </a>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero">
+      <img src="./assets/images/apartment-contemporary.jpg" alt="" />
+    </div>
+
+    <div class="wedo">
+      <div class="wedo_text">
+        <p class="headline">What We DO?</p>
+        <p class="wedo_summary">
+          It is a long established fact that a reader will be distracted
+        </p>
+        <p class="wedo_details">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries.
+        </p>
+      </div>
+      <div class="wedo_image">
+        <img src="./assets/images/wedo-img.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="we_counter">
+      <!-- *************     -->
+
+      <div class="countersection">
+        <div class="blocks">
+          <p>
+            <i class="fas fa-check"></i> <span class="counter">3</span>
+            <span>+</span>
+          </p>
+          <h4>Years of Experience</h4>
+        </div>
+
+        <div class="blocks">
+          <p>
+            <i class="fas fa-code"> </i> <span class="counter">300</span>
+            <span>+</span>
+          </p>
+          <h4>Projects Completed</h4>
+        </div>
+
+        <div class="blocks">
+          <p>
+            <i class="fas fa-user"></i> <span class="counter">30</span>
+            <span>+</span>
+          </p>
+          <h4>Clients</h4>
+        </div>
+      </div>
+
+      <!-- *************     -->
+    </div>
+
+    <div class="our_services">
+      <p class="our_services_heading heading">Our Services</p>
+      <p class="our_services_subhead subheading">SERVICES WE OFFER</p>
+    </div>
+    <div class="our_services_cards">
+      <div class="_card">
+        <i></i>
+        <p class="card_text"></p>
+        <p class="card_description"></p>
+      </div>
+    </div>
+
+    <div class="img_slider">Image slider</div>
+
+    <div class="our_work">
+      have two columns in grid OR flex
+      <div class="our_work_text">
+        Our Work descriptions
+        <div class="our_work_btn">cta button</div>
+      </div>
+      <div class="our_work_workgrid">Grid of our work</div>
+    </div>
+
+    <div class="featured_projects_text">featured projects texts</div>
+    <div class="featured_projects">grid of projects</div>
+
+    <div class="location_details">location details</div>
+    <div class="location_map">location map</div>
+
+    <div class="contact_us">contact form</div>
+
+    <footer>all rights reserved. 2020</footer>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+    <script>
+      $(".counter").counterUp({
+        delay: 50,
+        time: 2500,
+      });
+    </script>
+  </body>
+</html>

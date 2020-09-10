@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP&family=Raleway&family=Roboto&family=Ubuntu&display=swap");
+
+// Font style usage
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Noto Sans JP', sans-serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Ubuntu', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  display: grid;
+  grid-template-columns: 0.5fr repeat(3, 2fr) 0.5fr;
+  /* repeat(auto-fit, minmax(300px, 1fr)) */
+  /* grid-template-rows: 70px repeat(9, auto) 10%;
+    grid-template-areas: 
+        ". header header header ."
+        ". intro intro intro ."
+        "hero hero hero hero hero"
+        ". wedo wedo wedo ."
+
+    ; */
+
+  header {
+    grid-column: 2 / 5;
+  }
+  .intro {
+    grid-column: 2 / 4;
+    margin-top: 20px;
+    width: 600px;
+  }
+  .cta {
+    grid-column: 4 / 5;
+    float: right; // Use this to position the element within the block
+  }
+  .share_box {
+    grid-column: 5 / 6;
+  }
+  .hero {
+    grid-column: 1 / 6;
+    transform: translateY(-80px);
+    z-index: -1;
+  }
+  .wedo {
+    grid-column: 2 / 5;
+  }
+  /* .wedo_text {
+  grid-column: 2 / 4;
+  padding-right: 30px;
+}
+.wedo_image {
+  grid-column: 4 / 5;
+  height: 70px;
+  background: darksalmon;
+} */
+  .we_counter {
+    grid-column: 2 / 5;
+    transform: translate(0, -80px);
+  }
+  .our_services {
+    grid-column: 3 / 4;
+  }
+  .our_services_cards {
+    grid-column: 2 / 5;
+    height: 70px;
+    background: goldenrod;
+  }
+  .img_slider {
+    grid-column: 1 / 6;
+    height: 70px;
+    background: forestgreen;
+  }
+  .our_work {
+    grid-column: 2 / 5;
+    height: 70px;
+    background: khaki;
+  }
+  .featured_projects_text {
+    grid-column: 3 / 4;
+    height: 70px;
+    background: lightgreen;
+  }
+  .featured_projects {
+    grid-column: 2 / 5;
+    height: 70px;
+    background: limegreen;
+  }
+  .location_details {
+    grid-column: 2 / 3;
+    height: 70px;
+    background: maroon;
+  }
+  .location_map {
+    grid-column: 1 / 6;
+    height: 70px;
+    background: mediumaquamarine;
+  }
+  .contact_us {
+    grid-column: 2 / 5;
+    height: 70px;
+    background: mediumvioletred;
+  }
+  footer {
+    grid-column: 1 / 6;
+    height: 90px;
+    background: peru;
+  }
+}

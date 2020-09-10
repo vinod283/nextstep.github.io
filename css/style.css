@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP&family=Raleway&family=Roboto&family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr repeat(3, 2fr) 0.5fr;
+      grid-template-columns: 0.5fr repeat(3, 2fr) 0.5fr;
+  /* repeat(auto-fit, minmax(300px, 1fr)) */
+  /* grid-template-rows: 70px repeat(9, auto) 10%;
+    grid-template-areas: 
+        ". header header header ."
+        ". intro intro intro ."
+        "hero hero hero hero hero"
+        ". wedo wedo wedo ."
+
+    ; */
+  /* .wedo_text {
+  grid-column: 2 / 4;
+  padding-right: 30px;
+}
+.wedo_image {
+  grid-column: 4 / 5;
+  height: 70px;
+  background: darksalmon;
+} */
+}
+
+body header {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+}
+
+body .intro {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2 / 4;
+  margin-top: 20px;
+  width: 600px;
+}
+
+body .cta {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4 / 5;
+  float: right;
+}
+
+body .share_box {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 1;
+  grid-column: 5 / 6;
+}
+
+body .hero {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1 / 6;
+  -webkit-transform: translateY(-80px);
+          transform: translateY(-80px);
+  z-index: -1;
+}
+
+body .wedo {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+}
+
+body .we_counter {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+  -webkit-transform: translate(0, -80px);
+          transform: translate(0, -80px);
+}
+
+body .our_services {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+}
+
+body .our_services_cards {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+  height: 70px;
+  background: goldenrod;
+}
+
+body .img_slider {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1 / 6;
+  height: 70px;
+  background: forestgreen;
+}
+
+body .our_work {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+  height: 70px;
+  background: khaki;
+}
+
+body .featured_projects_text {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  height: 70px;
+  background: lightgreen;
+}
+
+body .featured_projects {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+  height: 70px;
+  background: limegreen;
+}
+
+body .location_details {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  height: 70px;
+  background: maroon;
+}
+
+body .location_map {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1 / 6;
+  height: 70px;
+  background: mediumaquamarine;
+}
+
+body .contact_us {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+  height: 70px;
+  background: mediumvioletred;
+}
+
+body footer {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1 / 6;
+  height: 90px;
+  background: peru;
+}
+/*# sourceMappingURL=style.css.map */
